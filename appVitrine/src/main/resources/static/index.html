@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend para API Vitrines</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Lista de Vitrines</h1>
+    <ul id="vitrines-list"></ul>
+
+    <h2>Criar Nova Vitrine</h2>
+    <form id="create-form">
+        <label for="dataInicio">Data de Início:</label><br>
+        <input type="date" id="dataInicio" name="dataInicio" required><br>
+        <label for="dataFim">Data de Fim:</label><br>
+        <input type="date" id="dataFim" name="dataFim" required><br>
+        <button type="submit">Criar Vitrine</button>
+    </form>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
